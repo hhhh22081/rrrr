@@ -1,0 +1,48 @@
+!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Вход в систему</title>
+  <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+  <header>
+    <ul class="nav-links">
+        <a  class="login" href="../index.html">Главная</a>
+        </ul>
+
+    <h1>Вход в систему</h1>
+  </header>
+  <main>
+    <form id="loginForm">
+      <label for="username">Имя пользователя:</label>
+      <input type="text" id="username" name="username" required>
+      
+      <label for="password">Пароль:</label>
+      <input type="password" id="password" name="password" required>
+      
+      <button type="submit">Войти</button>
+    </form>
+    <div id="message"></div>
+  </main>
+  <footer>
+    
+  </footer>
+  <script src="../JS/login.js"></script>
+
+
+
+
+  <style>
+    main {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      </style>
+</body>
+</html>
